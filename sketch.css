@@ -1,0 +1,19 @@
+function setup() 
+{
+  createCanvas(1000, 1000);
+   background(220);
+}
+
+function draw() {
+ 
+
+  stroke("blue");
+  strokeWeight(4);
+  fill("rgb(150,150,150)");
+  
+  if (mouseIsPressed)
+    {
+    rect(mouseX,mouseY,(20,15));
+  }
+  }
+  
